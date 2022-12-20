@@ -34,9 +34,7 @@ describe('Login user', () => {
     cy.get('#password').type(`${password}`).type('{enter}')
 
 
-    // cy.get('.___class_+?26___').click()
-    // cy.get('a[href*="/dashboard"]').click()
-    // cy.get('.logo-name').should('have.text', "Dashboard")
+    
 
   })
 
